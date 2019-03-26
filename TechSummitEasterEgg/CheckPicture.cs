@@ -37,7 +37,7 @@ namespace TechSummitEasterEgg
 
         // ------------------------------------------------------------------
 
-        private const string UrlBaseFunction = "https://lbswisstechsummitbase.azurewebsites.net/api/check-id?code=7x6InFrrr8COUO7CSOwLaWineQ/DjE0gdektvhk2tZ2eB6ZdZ007FQ==";
+        private const string UrlBaseFunction = "https://lbswisstechsummit19.azurewebsites.net/api/check-id?code=Av6VBZfLgEJ6DO20av2YNTZeVXdPmrdHNU0YvoGprf1b4n0paGQAMw==";
 		
         private const string ContainerName = "tech-summit";
         private const string ContainerResultName = "tech-summit-result";
