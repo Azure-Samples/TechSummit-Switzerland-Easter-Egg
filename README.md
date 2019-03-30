@@ -49,7 +49,7 @@ You can also check the finished application [in this repo](TODO).
 
 The Azure Functions application is implemented in C# using .NET Core 2.0.
 
-1. [Setting up the Azure environment](./Doc/01-settingup.md).
+1. [Setting up the Azure environment](./Doc/01-setting-up.md).
 2. [Installing the tools](./Doc/02-installing-tools.md).
 3. [Implementing the Blob Triggered Function and testing it locally](./Doc/03a-blob-function.md).
 4. [Implementing the HTTP Triggered Function and testing it locally](./Doc/03b-httpfunction.md)
