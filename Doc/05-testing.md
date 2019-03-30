@@ -6,7 +6,7 @@ In order to test the application, we will need you to show a big smile! Since we
 
 Many services on Azure allow you to inspect the logs during runtime. This is very useful to check the health of a service on the spot, as well as for debugging purposes.
 
-> In this example we will work directly on the production application, but you can also use [deployment slots](TODO) with Azure Functions, which are very safe and convenient before you publish your application to production. 
+> In this example we will work directly on the production application, but you can also use [deployment slots](http://gslb.ch/h82g-swisstechsummit19easteregg) with Azure Functions, which are very safe and convenient before you publish your application to production. 
 
 1. Open the Blob triggered function in the Azure portal:
 
@@ -22,7 +22,7 @@ Many services on Azure allow you to inspect the logs during runtime. This is ver
 
     ![Azure Functions](./Img/502.png) 
 
-    1.5. On the right hand side, you should see the Function's settings in JSON format. This is the so-called [`ARM template`](TODO) that VS Code created and deployed together with the compiled Functions code. 
+    1.5. On the right hand side, you should see the Function's settings in JSON format. This is the so-called [`ARM template`](http://gslb.ch/h327g-swisstechsummit19easteregg) that VS Code created and deployed together with the compiled Functions code. 
 
     1.6. Right below the ARM template, click on the Logs tab. This will open the logs window below the ARM template. After a short moment you should see a message stating `Welcome, you are now connected to log-streaming service`. 
 
@@ -80,4 +80,4 @@ At this point, everything should have triggered properly. Since we submit the "s
 
 ## What do I do if this fails? 
 
-We want to try to help you understand the code and be successful. If something doesn't work as expected, do not hesitate to contact [Laurent Bugnion](TODO) with as many details as possible. We will get back to you as soon as possible. 
+We want to try to help you understand the code and be successful. If something doesn't work as expected, do not hesitate to contact [Laurent Bugnion](mailto:lbugnion@microsoft.com) with as many details as possible. We will get back to you as soon as possible. 

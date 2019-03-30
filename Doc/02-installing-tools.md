@@ -18,14 +18,12 @@ Visual Studio Code is a cross-platform development environment that is very simp
 
 In order to develop Azure Functions from Visual Studio Code, you will need the following prerequisite:
 
-- [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#v2) TODO Shorten
+- [Azure Functions Core Tools](http://gslb.ch/h319g-swisstechsummit19easteregg)
 - [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
-- [.NET Core CLI Tools](https://docs.microsoft.com/dotnet/core/tools/?tabs=netcore2x) TODO shorten
+- [.NET Core CLI Tools](http://gslb.ch/h320g-swisstechsummit19easteregg)
 - Azure Function extension for Visual Studio Code
 
-For more information about how to install these tools, [you can check this page](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code).
-
-TODO Shorten
+For more information about how to install these tools, [you can check this page](http://gslb.ch/h321g-swisstechsummit19easteregg).
 
 Now we have the tools we need to create the Blob triggered and HTTP triggered Functions, and to publish them to Azure. [Let's start by implementing the Blob Triggered Function](./03a-blob-function.md)!
 

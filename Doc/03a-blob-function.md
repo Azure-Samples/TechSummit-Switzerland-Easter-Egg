@@ -1,8 +1,8 @@
 # Implementing the Blob Triggered Function and testing it locally
 
-One of the best features of our development tools is that they allow you to develop and test the Azure Functions locally, before you deploy to Azure. This makes the development very convenient and fast. Here we will use Visual Studio Code but if you prefer you can also use [Visual Studio 2017](TODO) or [Visual Studio 2019](TODO) with the [Cloud development workload](TODO) installed. 
+One of the best features of our development tools is that they allow you to develop and test the Azure Functions locally, before you deploy to Azure. This makes the development very convenient and fast. Here we will use Visual Studio Code but if you prefer you can also use [Visual Studio 2017](http://gslb.ch/h322g-swisstechsummit19easteregg) or [Visual Studio 2019](http://gslb.ch/h323g-swisstechsummit19easteregg) with the [Azure development workload](http://gslb.ch/h324g-swisstechsummit19easteregg) installed. 
 
-> In this example, we will work directly with the Azure Storage account that you created and configured earlier. However for testing purposes, you can also work with the [Azure Storage Emulator](TODO) 
+> In this example, we will work directly with the Azure Storage account that you created and configured earlier. However for testing purposes, you can also work with the [Azure Storage Emulator](http://gslb.ch/h325g-swisstechsummit19easteregg) 
 
 ## Creating the Azure Functions project
 
@@ -81,8 +81,6 @@ Now we can implement the Blob triggered Function, the first Function that we wil
 11. Then, select the Storage account we created earlier (here it's called `techsummiteastereggstore`)
 
 ![Selecting the storage account](./Img/315.png)
-
-TODO Redo the picture with the correct name
 
 > This setting will be copied to the `local.settings.json` file which is used during development. This will contain the information needed for the function to connect to the Blob container and observe it. In production, this information will be copied to the Azure Function settings.
 
@@ -164,7 +162,11 @@ Note how we added a 4th parameter `resultStream` and added an attribute to make 
 2. On the left hand side, you should see a small lightbulb. Click on it.
 3. Select the first entry in the drop down. This adds the instruction `using System.Threading.Tasks;` to the top of the file.
 
-TODO Add a picture (315b / 315c)
+![Visual Studio Code light bulb](./Img/315b.png)
+
+and then
+
+![Selecting the namespace](./Img/315c.png)
 
 #### Testing the blob trigger
 
@@ -256,7 +258,7 @@ In the code above, replace the constants with the values that you get from vario
 
 - `FaceEndpoint`: Enter the endpoint of the Cognitive service. We taught you how to get this value from the Cognitive Service overview in the in the [Cognitive service setup document](./01a-setting-up-cognitive.md#gettingendpoint) under `Getting the endpoint`.
 
-> Make sure to copy the endpoint URL without the `/face/TODO`. The endpoint URL should look like `https://westeurope.api.cognitive.microsoft.com`.
+> Make sure to copy the endpoint URL without the `/face/v1.0`. The endpoint URL should look like `https://westeurope.api.cognitive.microsoft.com`.
 
 Next we will add three more constants and one more attribute. Simply add this code below the constants that you added before.
 
@@ -282,9 +284,7 @@ Now that all the constants and attributes are defined, we will create and call t
 
 Copy the code below **into** the `Run` method, below the `log.LogInformation` line. You can **replace** the call to `WriteResult` with the following lines:
 
-> After pasting the code, you will see quite a few errors represented by a "squiggly" red underline below certain identifiers. Most of the time, it's simple because a namespace is missing from the "using" section on top of the class. You can fix errors by putting cursor in the error, then clicking on lightbulb on the left handside. Simply click and select the correct namespace from the list. Most of the time, the namespace you need is the first of the list.
-
-TODO Other picture showing the namespace in the list
+> Like before, after pasting the code, you will see quite a few errors represented by a "squiggly" red underline below certain identifiers. Most of the time, it's simple because a namespace is missing from the "using" section on top of the class. You can fix errors by putting cursor in the error, then clicking on lightbulb on the left handside. Simply click and select the correct namespace from the list. Most of the time, the namespace you need is the first of the list.
 
 ![Lightbulb for Intellisense](./Img/318.png)
 

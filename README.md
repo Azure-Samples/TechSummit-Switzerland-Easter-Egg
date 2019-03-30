@@ -20,15 +20,15 @@ In this tutorial, we will create an application involving diverse services from 
 
 1. You will take a selfie with a big smile on your face. You will upload the picture to Blob storage using the Azure Web Portal's Storage Explorer.
 
-> Note: You can also use the [Azure Storage Explorer](TODO) to upload the picture to the blob storage.
+> Note: You can also use the [Azure Storage Explorer](http://gslb.ch/h16g-swisstechsummit19easteregg) to upload the picture to the blob storage.
 
-2. An Azure Function will be triggered by the Blob upload ([Blog triggered Function](TODO)). 
+2. An Azure Function will be triggered by the Blob upload ([Blob triggered Function](http://gslb.ch/h64g-swisstechsummit19easteregg)). 
 
-3. The Function will call a Cognitive Service using [the Face API](TODO) to analyze the image's emotion.
+3. The Function will call a Cognitive Service using [the Face API](http://gslb.ch/h317g-swisstechsummit19easteregg) to analyze the image's emotion.
 
 4. Once the emotion has been recognized as Happy, your Azure Function will call a verification application with some details about your application.
 
-5. The verification application will call another Azure Function ([HTTP triggered function](TODO)) that you developed. This is used to verify that your application was indeed published to Azure.
+5. The verification application will call another Azure Function ([HTTP triggered function](http://gslb.ch/h65g-swisstechsummit19easteregg)) that you developed. This is used to verify that your application was indeed published to Azure.
 
 The verification application checks the following criteria:
 
@@ -45,7 +45,7 @@ If you implement and publish this application successfully to Azure, and submit 
 
 We provide complete instructions to setup the Azure environment, implement the application and publish it to Azure.
 
-You can also check the finished application [in this repo](TODO).
+You can also check the finished application [in this repo](https://github.com/Azure-Samples/TechSummit-Switzerland-Easter-Egg/tree/master/TechSummitEasterEgg).
 
 The Azure Functions application is implemented in C# using .NET Core 2.0.
 

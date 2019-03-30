@@ -24,7 +24,7 @@ At this point, we are ready to publish our Functions application in Azure. First
 
 - `OS`: Function applications developed with .NET Core can run on Windows or Linux. Here we will select Windows but you can also select Linux if you prefer.
 
-- `Hosting Plan`: Select `Consumption Plan`. 
+- `Hosting Plan`: Select `Consumption Plan`. You can get more info [about Consumption plan vs App Service plan here](http://gslb.ch/h326g-swisstechsummit19easteregg).
 
 - `Location`: Select as usual a location close to your users, for example `West Europe`.
 
