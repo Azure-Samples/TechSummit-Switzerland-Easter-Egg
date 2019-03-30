@@ -2,7 +2,7 @@
 
 > Hello and Welcome to the Microsoft Tech Summit Switzerland’s Easter Egg.
  
-Congratulations on finding the readme file on the floppy disk and dealing with antique technology. That's pretty impressive. Now for the really fun part!
+Congratulations on finding the readme file and dealing with antique technology. That's pretty impressive. Now for the really fun part!
  
 Now you are going to have to switch eras to build an Azure application using the latest technologies: Azure Functions (Serverless code) and Cognitive Services (artificial intelligence). And what’s the prize at the end? If you succeed, we will tweet our congratulations from the Microsoft Switzerland’s Twitter account (with your permission of course). Public proof that you were able to navigate 30 years of tech to solve this challenge before the time ran out. 
  
