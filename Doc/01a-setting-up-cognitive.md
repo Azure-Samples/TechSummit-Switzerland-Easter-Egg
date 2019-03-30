@@ -31,7 +31,7 @@ In this document we will create the Cognitive Service in the Azure portal.
 
 ![Searching for the Face API](./Img/151.png)
 
-4. In the list showing up in the Search result, select the `Face` service.
+4. In the list showing up in the Search result, select the `Face` service, then click the `Create` button.
 
 ![Selecting the Face API](./Img/152.png)
 
@@ -69,4 +69,4 @@ In this document we will create the Cognitive Service in the Azure portal.
 
 ![Manage keys](./Img/156.png)
 
-With the Azure account created, and the Cognitive Service set up, we can now [install Visual Studio Code](./02-installing-tools.md), the tool we will use to implement the Azure Functions application handling the images.
+With the Cognitive Service set up, we can now [install Visual Studio Code](./02-installing-tools.md), the tool we will use to implement the Azure Functions application handling the images.

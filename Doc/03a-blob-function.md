@@ -26,6 +26,8 @@ One of the best features of our development tools is that they allow you to deve
 
 5. Select how you want to open the new project, for example `Open in current window`.
 
+> Note: Depending on your installation, it is possible that VS Code asks you already here which type of Function you want to create. In this case, click `Skip for now`.
+
 ![Opening the project](./Img/304.png)
 
 At this point you will see the project files in the Explorer area. You could also open this project file in Visual Studio 2017 or 2019 on Windows if you prefer.
@@ -162,7 +164,7 @@ Note how we added a 4th parameter `resultStream` and added an attribute to make 
 2. On the left hand side, you should see a small lightbulb. Click on it.
 3. Select the first entry in the drop down. This adds the instruction `using System.Threading.Tasks;` to the top of the file.
 
-TODO Add a picture
+TODO Add a picture (315b / 315c)
 
 #### Testing the blob trigger
 
@@ -245,6 +247,8 @@ In the code above, replace the constants with the values that you get from vario
 - `PublishSuccessOnTwitter`: Set this value to `true` if you want the Microsoft Switzerland account to tweet a congratulatory message at your address if you succeed completing this application. If set to false, we will still value your efforts, but we won't tweet about it to preserve your privacy.
 
 - `Twitter`: Enter your Twitter name here, without the @ character.
+
+- `SecretKey`: Enter the Secret Key that you found on the floppy disk :)
 
 - `StorageAccountName`: Enter the storage account name that you created earlier (for example `techsummiteastereggstore`).
 
@@ -334,7 +338,7 @@ if (error != null)
 
 - If there is an error, the caught exception will be saved in the `error` variable. In this case, we will save the error message to the output blob, and then return.
 
-The next step is to inform the user in case the Cognitive service was unabled to find any faces (or if there is more than one face) on the picture. Here too, we will save this information to the output blob and then return.
+The next step is to inform the user in case the Cognitive service was unable to find any faces (or if there is more than one face) on the picture. Here too, we will save this information to the output blob and then return.
 
 ```cs
 if (faceList == null
@@ -452,9 +456,9 @@ In order to check the result, we will again run the Function in debug mode, and 
 
     6.2. Upload a picture with a sad face. The Cognitive service should return the corresponding result and save it in the output blob.
 
-    6.3. Upload a picture with a smiling face. At this point, the verification Function should be called with the corresponding parameters but it will return an error message, because your Functions were not published to Azure yet. At this point, you can tell that the test is successful.
+    6.3. Upload a picture with a smiling face. At this point, the verification Function should be called with the corresponding parameters but it will return an error message (saying that the submission is invalid because all fields are not filled), because your Functions were not published to Azure yet. At this point, you can tell that the test is successful.
 
-7. When the code is done running, in the Azure Portal, you can always go back to `techsummiteastereggstore - Blobs` in the crumb bar on top of the portal window.
+7. When the code is done running, in the Azure Portal, you can always go back to `techsummiteastereggstore - Blobs` in the breadcrumb bar on top of the portal window.
 
 8. Press the `Refresh` button if needed. You should now see the blob container named `tech-summit-result`. Click on this blob container, and notice the presence of a blob named after the file that you just uploaded, with the `.txt` extension. This shows that the method call was successful.
 

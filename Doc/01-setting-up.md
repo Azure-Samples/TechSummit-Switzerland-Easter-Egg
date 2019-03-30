@@ -22,17 +22,17 @@ You can find more information about [Resource groups here](http://gslb.ch/h307g-
 
 ![Searching for Resource group](./Img/102.png)
 
-4. At the bottom of the page, click on the `Create` button.
+4. In the search results, select `Resource Group`. Then, at the bottom of the page, click on the `Create` button.
 
 ![Create the resource group](./Img/103.png)
 
 5. In the `Create a resource group` page, enter the following information:
 
-- Subscription: Select the subscription that you want to use.
+- `Subscription`: Select the subscription that you want to use.
 
-- Resource group: Enter the name of the new resource group. This must be unique within your subscription, for instance `techsummiteasteregg`.
+- `Resource group`: Enter the name of the new resource group. This must be unique within your subscription, for instance `techsummiteasteregg`.
 
-- Region: Select the region in which your resource group should be placed. Typically you want to select a region close to your users to minimize latency.
+- `Region`: Select the region in which your resource group should be placed. Typically you want to select a region close to your users to minimize latency.
 
 ![Resource group information](./Img/104.png)
 
@@ -94,7 +94,7 @@ You can find more information [about Azure Storage accounts here](http://gslb.ch
 
 6. Once the creation of the Storage account is complete, click on `Go to resource`.
 
-> You can always find the storage account by clicking on `Storage accounts` under Favorites, and then selecting your storage accoung (for example `techsummiteasteregg`) from the list.
+> You can always find the storage account by clicking on `Storage accounts` under Favorites, and then selecting your storage account (for example `techsummiteasteregg`) from the list.
 
 ![Storage accounts favorite](./Img/111.png)
 
@@ -110,4 +110,4 @@ You can find more information [about Azure Storage accounts here](http://gslb.ch
 
 9. Click on the `OK` button to trigger the creation of the blob container.
 
-With the Azure account created, we will now [create a Cognitive Service using the Face API](./01a-setting-up-cognitive.md) so that our pictures can be analyzed.
+With the Azure Storage account created, we will now [create a Cognitive Service using the Face API](./01a-setting-up-cognitive.md) so that our pictures can be analyzed.
