@@ -178,7 +178,7 @@ To test the process, follow the steps:
 
 ![Storage accounts favorite](./Img/315a.png)
 
-2. Select the Storage Account that you created earlier (the one that should be named `techsummiteastereggstore`).
+2. Select the Storage Account that you created earlier (the one that we named `techsummiteastereggstore` in this tutorial).
 
 3. Under `Blob service`, select `Blobs`.
 
@@ -190,7 +190,7 @@ To test the process, follow the steps:
 
 6. In the `Upload blob` drawer, select a picture from your computer and upload it. After a short wait, you should see that your function has been triggered in Visual Studio Code. You can then run the code step by step with the `Debug/Step into` command (F11) and see how the `WriteResult` method is executed.
 
-7. When the code is finished, in the Azure Portal, go back to `techsummiteastereggstore - Blobs` in the crumb bar on top of the portal window.
+7. When the code is finished, in the Azure Portal, go back to `techsummiteastereggstore - Blobs` in the crumb bar on top of the portal window (your storage account's name might be different).
 
 8. Press the `Refresh` button. You should now see a new blob container named `tech-summit-result`. Click on this blob container, and notice the presence of a blob named after the file that you just uploaded, with the `.txt` extension. This shows that the method call was successful.
 
@@ -440,7 +440,7 @@ In order to check the result, we will again run the Function in debug mode, and 
 
 ![Storage accounts favorite](./Img/315a.png)
 
-2. Select the Storage Account that you created earlier (the one that should be named `techsummiteastereggstore`).
+2. Select the Storage Account that you created earlier (the one that we named `techsummiteastereggstore` in this tutorial).
 
 3. Under `Blob service`, select `Blobs`.
 
@@ -458,7 +458,7 @@ In order to check the result, we will again run the Function in debug mode, and 
 
     6.3. Upload a picture with a smiling face. At this point, the verification Function should be called with the corresponding parameters but it will return an error message (saying that the submission is invalid because all fields are not filled), because your Functions were not published to Azure yet. At this point, you can tell that the test is successful.
 
-7. When the code is done running, in the Azure Portal, you can always go back to `techsummiteastereggstore - Blobs` in the breadcrumb bar on top of the portal window.
+7. When the code is done running, in the Azure Portal, you can always go back to `techsummiteastereggstore - Blobs` in the breadcrumb bar on top of the portal window (or what you named your storage account).
 
 8. Press the `Refresh` button if needed. You should now see the blob container named `tech-summit-result`. Click on this blob container, and notice the presence of a blob named after the file that you just uploaded, with the `.txt` extension. This shows that the method call was successful.
 

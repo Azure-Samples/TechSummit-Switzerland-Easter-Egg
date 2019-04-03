@@ -36,7 +36,7 @@ Now we are going to upload a picture and see the result in the logs. In order to
 
 ![Storage accounts favorite](./Img/315a.png)
 
-2. Select the Storage Account that you created earlier (the one that should be named `techsummiteastereggstore`).
+2. Select the Storage Account that you created earlier (the one that we named `techsummiteastereggstore` in this tutorial).
 
 3. Under `Blob service`, select `Blobs`.
 

@@ -74,7 +74,7 @@ You can find more information [about Azure Storage accounts here](http://gslb.ch
 	
 - `Resource group`: In the combo box, select the Resource group that you created earlier, for example `techsummiteasteregg`.
 	
-- `Storage account name`: Enter `techsummiteastereggstore`.
+- `Storage account name`: Enter a name such as `techsummiteastereggstore`. Note that this name should be unique within Azure.
 
 > Storage account names must be in lowercase without any dashes or other special characters.
     
