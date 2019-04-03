@@ -61,8 +61,6 @@ namespace TechSummitEasterEgg
 
 Now we will modify the function signature to correspond to what we want to do. Change the code to look like this:
 
-TODO Make synchronous
-
 ```cs
 [FunctionName("VerifyId")]
 public static async Task<IActionResult> Run(
