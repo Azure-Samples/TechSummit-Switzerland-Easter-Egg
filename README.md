@@ -1,3 +1,13 @@
+---
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "Hello and Welcome to the Microsoft Tech Summit Switzerland’s Easter Egg."
+urlFragment: TechSummit-Switzerland-Easter-Egg
+---
+
 # Microsoft Switzerland TechSummit 2019 Easter Egg!
 
 > Hello and Welcome to the Microsoft Tech Summit Switzerland’s Easter Egg.
